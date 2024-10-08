@@ -25,3 +25,6 @@ a, h4 {
 .navbar-toggler:focus {
     box-shadow: none !important;
 }
+.fa-brands {
+    color: #B74B4B;
+}
