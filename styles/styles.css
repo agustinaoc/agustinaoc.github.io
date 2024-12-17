@@ -7,22 +7,35 @@
     font-style: normal;
     font-weight: 400;
     margin: 0%;
+    color: var(--color);
 }
+
 :root {
-    --main-bg-color: #f8f9fa;
-    --color: #0B0B0B;
+    --main-bg-color: #0B0B0B;
+    --color: #f8f9fa;
     --main-red: #B74B4B;
+    --animation-duration: 500ms;
   }
   body.dark {
     --main-bg-color: #0B0B0B;
     --color: #f8f9fa;
     --main-red: #B74B4B;
   }
+
 body {
-    background-color: var(--main-bg-color) !important;
+    background-color: var(--main-bg-color) !important; 
 }
+
 a, h4 {
     color: var(--main-red) !important;
+}
+
+.card {
+    background-color: var(--main-bg-color) !important;
+    color: var(--color) !important;
+}
+.card img {
+    margin: 1rem;
 }
 .navbar-toggler {
     padding: 0 !important;
