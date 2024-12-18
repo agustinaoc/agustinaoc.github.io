@@ -14,7 +14,6 @@
     --main-bg-color: #0B0B0B;
     --color: #f8f9fa;
     --main-red: #B74B4B;
-    --animation-duration: 500ms;
   }
   body.dark {
     --main-bg-color: #0B0B0B;
@@ -28,6 +27,9 @@ body {
 
 a, h4 {
     color: var(--main-red) !important;
+}
+main {
+    padding-top: 50px;
 }
 
 .card {
